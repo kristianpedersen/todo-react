@@ -1,0 +1,27 @@
+$black: #333;
+$red: crimson;
+$gold: lighten(goldenrod, 44%);
+$white: #fff;
+
+.TodoList {
+	font-size: 2rem;
+	
+	h1 {
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		border-bottom: 4px solid $red;
+	}
+	
+	p {
+		background-color: $red;
+		color: $white;
+		border: 3px solid $black;
+		margin: 1em;
+		padding: .25em;
+	}
+}
+
+.Todo {
+	background: $gold;
+	border: 1px solid $black;
+	margin: 1em;
+}
